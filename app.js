@@ -27,11 +27,7 @@ app.post('/', function(req, res) {
     ]
   };
   const jsonData = JSON.stringify(data);
-  const url = "https://us8.api.mailchimp.com/3.0/lists/36ff0a3eb3";
-  const options = {
-    method: "POST",
-    auth:"bhavay:a029dd75a6de673cc24b7a0bededb3e5-us8"
-  };
+/// Mail Chimp code deleted
   const request = https.request(url, options, function(resp) {
 
     if (resp.statusCode === 200) {
